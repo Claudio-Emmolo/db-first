@@ -7,7 +7,7 @@ tipo_auto                   - stringha                               - VARCHAR(3
 numero_targa                - stringha                               - VARCHAR(7)                                - NULL DEFAULT ('La macchina è sprovvista di targa') UNIQUE
 colore                      - stringha                               - VARCHAR(30)                               - NULL
 km_percorsi                 - float                                  - FLOAT(10, 2)                              - NOTNULL
-prezzo                      - float                                  - FLOAT(6, 2)                               - NOTNULL
+prezzo                      - float                                  - FLOAT(7, 2)                               - NOTNULL
 cilindrata                  - stringha                               - VARCHAR(6)                                - NOTNULL
 cavalli_motore              - stringha                               - VARCHAR(6)                                - NOTNULL
 tipo_carburante             - stringha                               - VARCHAR(15)                               - NOTNULL
