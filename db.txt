@@ -1,6 +1,6 @@
 Struttura Database per concessionario auto usate:
 
-id                          - intero                                 - MEDIUMINT                                 - PRIMARY_KEY AUTO_INCREMENT UNIQUE
+id                          - intero                                 - MEDIUMINT                                 - PRIMARY_KEY AUTO_INCREMENT
 modello                     - stringha                               - VARCHAR(50)                               - NOTNULL
 marca                       - stringha                               - VARCHAR(20)                               - NOTNULL
 tipo_auto                   - stringha                               - VARCHAR(30)                               - NOTNULL
