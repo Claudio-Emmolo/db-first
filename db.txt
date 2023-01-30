@@ -1,0 +1,27 @@
+Struttura Database per concessionario auto usate:
+
+id                          - intero                                 - MEDIUMINT                                 - PRIMARY_KEY AUTO_INCREMENT UNIQUE
+modello                     - stringha                               - VARCHAR(50)                               - NOTNULL
+marca                       - stringha                               - VARCHAR(20)                               - NOTNULL
+tipo_auto                   - stringha                               - VARCHAR(30)                               - NOTNULL
+numero_targa                - stringha                               - VARCHAR(7)                                - NULL DEFAULT ('La macchina è sprovvista di targa') UNIQUE
+colore                      - stringha                               - VARCHAR(30)                               - NULL
+km_percorsi                 - float                                  - FLOAT(10, 2)                              - NOTNULL
+prezzo                      - float                                  - FLOAT(6, 2)                               - NOTNULL
+cilindrata                  - stringha                               - VARCHAR(6)                                - NOTNULL
+cavalli_motore              - stringha                               - VARCHAR(6)                                - NOTNULL
+tipo_carburante             - stringha                               - VARCHAR(15)                               - NOTNULL
+freni                       - stringha                               - VARCHAR(7)                                - NOTNULL
+pneumatici                  - stringha                               - VARCHAR(20)                               - NULL
+numero_porte                - intero                                 - TINYNT                                    - NOTNULL
+numero_posti                - intero                                 - TINYNT                                    - NOTNULL
+lunghezza                   - float                                  - FLOAT(5, 3)                               - NULL
+altezza                     - float                                  - FLOAT(5, 3)                               - NULL
+larghezza                   - float                                  - FLOAT(5, 3)                               - NULL
+tipo_trazione               - stringa                                - VARCHAR(10)                               - NOTNULL
+spazio_bagagliaio           - float                                  - FLOAT(5, 3)                               - NULL
+navigatore                  - intero                                 - TINYNT (0, 1 boolean)                     - NULL
+anno_modello                - data                                   - YEAR                                      - NULL
+anno_messa_in_vendita       - data                                   - YEAR                                      - NOTNULL
+danni_presenti              - stringa                                - VARCHAR(255)                              - NULL DEFAULT ('Nessun danno evidente')
+ultimo_tagliando            - data                                   - DATE                                      - NULL
